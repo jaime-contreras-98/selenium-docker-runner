@@ -12,10 +12,11 @@ pipeline {
             }
         }
     }
-}
-post {
-    always {
-        sh "docker-compose -f grid.yml down"
-        sh "docker-compose -f test-suites.yml down"
+
+    post {
+        always {
+            sh "docker-compose -f grid.yml down"
+            sh "docker-compose -f test-suites.yml down"
+        }
     }
 }
