@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T05:51:16 GMT" name="flight-reservation" finished-at="2024-05-15T05:51:32 GMT" duration-ms="16909">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T05:51:16 GMT" name="passangers-count-1" finished-at="2024-05-15T05:51:32 GMT" duration-ms="16293">
+      <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:16 GMT" name="setDriver" finished-at="2024-05-15T05:51:21 GMT" duration-ms="5344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@35047d03]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParams(java.lang.String)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:21 GMT" name="setParams" finished-at="2024-05-15T05:51:21 GMT" depends-on-methods="org.udemy.globant.tests.AbstractTest.setDriver" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flights/passanger1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParams -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:21 GMT" name="userRegistrationTest" finished-at="2024-05-15T05:51:25 GMT" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:25 GMT" name="registrationConfirmationTest" finished-at="2024-05-15T05:51:27 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.userRegistrationTest" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:27 GMT" name="flightSearchTest" finished-at="2024-05-15T05:51:28 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.registrationConfirmationTest" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:28 GMT" name="flightSelectionTest" finished-at="2024-05-15T05:51:31 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSearchTest" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:31 GMT" name="flightConfirmationTest" finished-at="2024-05-15T05:51:31 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSelectionTest" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@971d0d8]" started-at="2024-05-15T05:51:31 GMT" name="closeDriver" finished-at="2024-05-15T05:51:32 GMT" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.udemy.globant.tests.flights.FlightReservationJSONTest -->
+    </test> <!-- passangers-count-1 -->
+    <test started-at="2024-05-15T05:51:16 GMT" name="passangers-count-3" finished-at="2024-05-15T05:51:32 GMT" duration-ms="16266">
+      <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:16 GMT" name="setupConfig" finished-at="2024-05-15T05:51:16 GMT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:16 GMT" name="setDriver" finished-at="2024-05-15T05:51:21 GMT" duration-ms="5332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49b0b76]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParams(java.lang.String)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:21 GMT" name="setParams" finished-at="2024-05-15T05:51:21 GMT" depends-on-methods="org.udemy.globant.tests.AbstractTest.setDriver" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flights/passanger3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParams -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:21 GMT" name="userRegistrationTest" finished-at="2024-05-15T05:51:25 GMT" duration-ms="3740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:25 GMT" name="registrationConfirmationTest" finished-at="2024-05-15T05:51:26 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.userRegistrationTest" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:26 GMT" name="flightSearchTest" finished-at="2024-05-15T05:51:27 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.registrationConfirmationTest" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:27 GMT" name="flightSelectionTest" finished-at="2024-05-15T05:51:30 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSearchTest" duration-ms="2988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:30 GMT" name="flightConfirmationTest" finished-at="2024-05-15T05:51:31 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSelectionTest" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@12d3a4e9]" started-at="2024-05-15T05:51:31 GMT" name="closeDriver" finished-at="2024-05-15T05:51:32 GMT" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.udemy.globant.tests.flights.FlightReservationJSONTest -->
+    </test> <!-- passangers-count-3 -->
+    <test started-at="2024-05-15T05:51:16 GMT" name="passangers-count-2" finished-at="2024-05-15T05:51:32 GMT" duration-ms="16909">
+      <class name="org.udemy.globant.tests.flights.FlightReservationJSONTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:16 GMT" name="setDriver" finished-at="2024-05-15T05:51:21 GMT" duration-ms="5330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@769f71a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParams(java.lang.String)[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:21 GMT" name="setParams" finished-at="2024-05-15T05:51:21 GMT" depends-on-methods="org.udemy.globant.tests.AbstractTest.setDriver" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flights/passanger2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParams -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:21 GMT" name="userRegistrationTest" finished-at="2024-05-15T05:51:25 GMT" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:25 GMT" name="registrationConfirmationTest" finished-at="2024-05-15T05:51:26 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.userRegistrationTest" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightSearchTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:26 GMT" name="flightSearchTest" finished-at="2024-05-15T05:51:28 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.registrationConfirmationTest" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearchTest -->
+        <test-method signature="flightSelectionTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:28 GMT" name="flightSelectionTest" finished-at="2024-05-15T05:51:31 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSearchTest" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelectionTest -->
+        <test-method signature="flightConfirmationTest()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:31 GMT" name="flightConfirmationTest" finished-at="2024-05-15T05:51:32 GMT" depends-on-methods="org.udemy.globant.tests.flights.FlightReservationJSONTest.flightSelectionTest" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.udemy.globant.tests.flights.FlightReservationJSONTest@55ca8de8]" started-at="2024-05-15T05:51:32 GMT" name="closeDriver" finished-at="2024-05-15T05:51:32 GMT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.udemy.globant.tests.flights.FlightReservationJSONTest -->
+    </test> <!-- passangers-count-2 -->
+  </suite> <!-- flight-reservation -->
+</testng-results>

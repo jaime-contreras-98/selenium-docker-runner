@@ -1,0 +1,20 @@
+version: "3"
+services:
+  vendor-portal:
+    image: jaimecontreras98/selenium
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=hub
+      - TEST_SUITE=vendor-portal.xml
+      - THREAD_COUNT=4
+    volumes:
+      - ./output/vendor-portal:/home/selenium-docker/test-output
+  flight-reservation:
+    image: jaimecontreras98/selenium
+    environment:
+      - BROWSER=firefox
+      - HUB_HOST=hub
+      - TEST_SUITE=flight-reservation-json.xml
+      - THREAD_COUNT=4
+    volumes:
+      - ./output/flight-reservation:/home/selenium-docker/test-output
