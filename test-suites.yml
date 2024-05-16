@@ -3,7 +3,7 @@ services:
   vendor-portal:
     image: jaimecontreras98/selenium
     environment:
-      - BROWSER=chrome
+      - BROWSER
       - HUB_HOST=hub
       - TEST_SUITE=vendor-portal.xml
       - THREAD_COUNT=4
@@ -12,7 +12,7 @@ services:
   flight-reservation:
     image: jaimecontreras98/selenium
     environment:
-      - BROWSER=firefox
+      - BROWSER
       - HUB_HOST=hub
       - TEST_SUITE=flight-reservation-json.xml
       - THREAD_COUNT=4

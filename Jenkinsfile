@@ -1,9 +1,12 @@
 pipeline {
-    agent any 
+    agent any
+    parameters {
+        choice choices: ['chrome', 'firefox'], description: 'Browser that will run tests', name: 'BROWSER'
+    } 
     stages {
         stage('Start Grid in background') {
             steps {
-                sh "docker-compose -f grid.yml up -d"
+                sh "docker-compose -f grid.yml up --scale ${params.BROWSER}=2 -d"
             }
         }
         stage('Run Test') {
