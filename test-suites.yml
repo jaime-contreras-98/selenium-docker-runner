@@ -6,7 +6,7 @@ services:
       - BROWSER
       - HUB_HOST=hub
       - TEST_SUITE=vendor-portal.xml
-      - THREAD_COUNT=4
+      - THREAD_COUNT=1
     volumes:
       - ./output/vendor-portal:/home/selenium-docker/test-output
   flight-reservation:
@@ -15,6 +15,6 @@ services:
       - BROWSER
       - HUB_HOST=hub
       - TEST_SUITE=flight-reservation-json.xml
-      - THREAD_COUNT=4
+      - THREAD_COUNT=1
     volumes:
       - ./output/flight-reservation:/home/selenium-docker/test-output
